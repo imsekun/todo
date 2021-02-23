@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+ghcid \
+  --command stack ghci \
+  --test "Main.main" \
+  --restart *.cabal \
+  "todo"
